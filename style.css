@@ -1,0 +1,108 @@
+h1{
+    margin-top: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+h1 b{
+    color: rgb(50,50,50);
+    margin-right: 5px;
+}
+
+#content{
+    min-width: 480px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#colours {
+    margin: auto;
+    width: 470px;
+    height: 470px;
+}
+
+#colours a{
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+
+#icons a:hover{
+    opacity: 1 !important;
+}
+
+.button-container{
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 65px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid black;
+    z-index: 2;
+    position: relative;
+} 
+.button-container img{
+    width: 110px;
+    height: 110px;
+    opacity: 0.85;
+}
+
+.button-container img:hover{
+    opacity:1;
+    cursor:pointer;
+    transition: opacity 0.25s ease-in-out
+}
+
+.selected{
+    border-color: gold;
+}
+
+.selected img{
+    opacity: 1;
+}
+
+#W{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#G{
+    float: left;
+    margin-left: 20px;
+}
+
+#U{
+    float:right;
+    margin-right: 30px;
+    margin-top: -5px;
+}
+
+
+#B{
+    float:right;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+
+#R{
+    float: left;
+    margin-left: -80px;
+    margin-top: 60px;
+}
+
+#nome{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#copyright{
+    text-align: center;
+}
